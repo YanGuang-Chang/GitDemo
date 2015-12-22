@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C7B122C1C299C2500C5AFD9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B122B1C299C2500C5AFD9 /* Person.m */; settings = {ASSET_TAGS = (); }; };
 		2CB720001C299813001E67E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB71FFF1C299813001E67E1 /* main.m */; };
 		2CB720031C299813001E67E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB720021C299813001E67E1 /* AppDelegate.m */; };
 		2CB720061C299813001E67E1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CB720051C299813001E67E1 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C7B122A1C299C2500C5AFD9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2C7B122B1C299C2500C5AFD9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 		2CB71FFB1C299813001E67E1 /* GitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB71FFF1C299813001E67E1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2CB720011C299813001E67E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				2CB720021C299813001E67E1 /* AppDelegate.m */,
 				2CB720041C299813001E67E1 /* ViewController.h */,
 				2CB720051C299813001E67E1 /* ViewController.m */,
+				2C7B122A1C299C2500C5AFD9 /* Person.h */,
+				2C7B122B1C299C2500C5AFD9 /* Person.m */,
 				2CB720071C299813001E67E1 /* Main.storyboard */,
 				2CB7200A1C299813001E67E1 /* Assets.xcassets */,
 				2CB7200C1C299813001E67E1 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			files = (
 				2CB720061C299813001E67E1 /* ViewController.m in Sources */,
 				2CB720031C299813001E67E1 /* AppDelegate.m in Sources */,
+				2C7B122C1C299C2500C5AFD9 /* Person.m in Sources */,
 				2CB720001C299813001E67E1 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +304,7 @@
 				2CB720141C299813001E67E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
